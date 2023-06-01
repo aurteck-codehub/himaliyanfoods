@@ -96,7 +96,7 @@ export default function WithSubnavigation() {
             bg={"red.400"}
             href={"#"}
             _hover={{
-              bg: "red.300",
+              bg: "red.00",
             }}>
             Get Qoutation
           </Button>
@@ -264,26 +264,35 @@ interface NavItem {
 const NAV_ITEMS: Array<NavItem> = [
   {
     label: "Home",
-    // children: [
-    //   {
-    //     label: "Explore Design Work",
-    //     subLabel: "Trending Design to inspire you",
-    //     href: "#",
-    //   },
-    //   {
-    //     label: "New & Noteworthy",
-    //     subLabel: "Up-and-coming Designers",
-    //     href: "#",
-    //   },
-    // ],
   },
   {
     label: "About",
     href: "#",
   },
   {
-    label: "Shop",
-    href: "#",
+    label: "Products",
+    children: [
+      {
+        label: "Edible Salt",
+        href: "#",
+      },
+      {
+        label: "Industrial Salt",
+        href: "#",
+      },
+      {
+        label: "Salt Tiles",
+        href: "#",
+      },
+      {
+        label: "Slat Lamp",
+        href: "#",
+      },
+      {
+        label: "Animal Lick Salt",
+        href: "#",
+      },
+    ],
   },
   {
     label: "Contact",

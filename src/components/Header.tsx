@@ -85,8 +85,8 @@ export default function CallToActionWithVideo() {
           />
           <Box
             position={"relative"}
-            height={"300px"}
-            rounded={"2xl"}
+            height={"400px"}
+            rounded={"xl"}
             boxShadow={"2xl"}
             width={"full"}
             overflow={"hidden"}>
