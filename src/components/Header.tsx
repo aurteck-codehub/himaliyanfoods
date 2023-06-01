@@ -37,9 +37,9 @@ export default function CallToActionWithVideo() {
             </Text>
           </Heading>
           <Text color={"gray.500"}>
-            Nature's Ancient Treasure Unveiled. Harvested from pristine depths
-            within the majestic Himalayan Mountains, our salt embodies purity,
-            rich minerals, and unrivaled flavor. Enhance your culinary
+            Nature&lsquo;s Ancient Treasure Unveiled. Harvested from pristine
+            depths within the majestic Himalayan Mountains, our salt embodies
+            purity, rich minerals, and unrivaled flavor. Enhance your culinary
             creations, invigorate your wellness rituals, and indulge in the
             sublime essence of this timeless natural wonder. Elevate your
             experience with Himalayan Salt.
