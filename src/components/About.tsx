@@ -9,11 +9,6 @@ import {
   Text,
   Button,
   Image,
-  Icon,
-  IconButton,
-  createIcon,
-  IconProps,
-  useColorModeValue,
 } from "@chakra-ui/react";
 
 const About = () => {
@@ -78,16 +73,7 @@ const About = () => {
             <Stack
               spacing={{ base: 4, sm: 6 }}
               direction={{ base: "column", sm: "row" }}>
-              <Button
-                rounded={"full"}
-                size={"lg"}
-                fontWeight={"normal"}
-                px={6}
-                colorScheme={"red"}
-                bg={"red.400"}
-                _hover={{ bg: "red.600" }}>
-                Get Qoutation
-              </Button>
+             
               <Button
                 rounded={"full"}
                 size={"lg"}
