@@ -1,4 +1,5 @@
 "use client";
+
 import {
   Stack,
   Flex,
@@ -8,7 +9,7 @@ import {
   useBreakpointValue,
 } from "@chakra-ui/react";
 
-const Qoutation = () => {
+export default function Qoutation() {
   return (
     <Flex
       w={"full"}
@@ -29,8 +30,7 @@ const Qoutation = () => {
             fontWeight={700}
             lineHeight={1.2}
             fontSize={useBreakpointValue({ base: "3xl", md: "4xl" })}>
-            Lorem ipsum dolor sit amet consectetur adipiscing elit sed do
-            eiusmod tempor
+            Here goes the some content for
           </Text>
           <Stack direction={"row"}>
             <Button
@@ -45,5 +45,4 @@ const Qoutation = () => {
       </VStack>
     </Flex>
   );
-};
-export default Qoutation;
+}
