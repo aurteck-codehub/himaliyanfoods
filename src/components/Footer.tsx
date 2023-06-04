@@ -62,10 +62,10 @@ export default function SmallCentered() {
           height={70}
         />
         <Stack direction={"row"} spacing={6}>
-          <Link href={"#"}>Home</Link>
-          <Link href={"#"}>About</Link>
-          <Link href={"#"}>Shop</Link>
-          <Link href={"#"}>Contact</Link>
+          <Link href={"/"}>Home</Link>
+          <Link href={"/about"}>About</Link>
+          <Link href={"/products"}>Products</Link>
+          <Link href={"/contact"}>Contact</Link>
         </Stack>
       </Container>
 

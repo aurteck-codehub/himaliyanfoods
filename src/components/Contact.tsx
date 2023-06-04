@@ -18,6 +18,7 @@ import {
   InputLeftElement,
   Textarea,
 } from "@chakra-ui/react";
+
 import {
   MdPhone,
   MdEmail,
@@ -25,6 +26,7 @@ import {
   MdFacebook,
   MdOutlineEmail,
 } from "react-icons/md";
+
 import { BsGithub, BsDiscord, BsPerson } from "react-icons/bs";
 
 const Contact = () => {
@@ -153,7 +155,7 @@ const Contact = () => {
                           bg="red.300"
                           color="white"
                           _hover={{}}>
-                          Send Message
+                          Ask For Qoutation
                         </Button>
                       </FormControl>
                     </VStack>

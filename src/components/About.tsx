@@ -27,15 +27,6 @@ const About = () => {
             align={"center"}
             position={"relative"}
             w={"full"}>
-            {/* <Blob
-              w={"150%"}
-              h={"150%"}
-              position={"absolute"}
-              top={"-20%"}
-              left={0}
-              zIndex={-1}
-              color={useColorModeValue("red.50", "red.400")}
-            /> */}
             <Box
               position={"relative"}
               height={"400px"}
@@ -57,9 +48,9 @@ const About = () => {
             <Heading
               lineHeight={1.1}
               fontWeight={600}
-              fontSize={{ base: "3xl", sm: "4xl", lg: "6xl" }}>
+              fontSize={{ base: "2xl", sm: "3xl", lg: "5xl" }}>
               <Text as={"span"} color={"red.400"}>
-                Pure Essence
+                Who we are?
               </Text>
             </Heading>
             <Text color={"gray.500"}>
@@ -73,7 +64,6 @@ const About = () => {
             <Stack
               spacing={{ base: 4, sm: 6 }}
               direction={{ base: "column", sm: "row" }}>
-             
               <Button
                 rounded={"full"}
                 size={"lg"}
