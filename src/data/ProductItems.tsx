@@ -1,6 +1,7 @@
 export interface Product {
   id: number;
   name: string;
+  product_code: string;
   category_code: string;
   description: string;
   imageSrc: string;
@@ -12,6 +13,7 @@ export const PRODUCTS_ITEMS: Array<Product> = [
   {
     id: 1,
     name: "Product 1",
+    product_code: "PRO-001",
     category_code: "CAT-001",
     description: "Description of Product 1",
     imageSrc: "product1.jpg",
@@ -22,6 +24,7 @@ export const PRODUCTS_ITEMS: Array<Product> = [
     id: 2,
     name: "Product 2",
     category_code: "CAT-001",
+    product_code: "PRO-002",
     description: "Description of Product 2",
     imageSrc: "product2.jpg",
     imageAlt: "Product 2 Image",
@@ -31,6 +34,7 @@ export const PRODUCTS_ITEMS: Array<Product> = [
     id: 3,
     name: "Product 3",
     category_code: "CAT-001",
+    product_code: "PRO-003",
     description: "Description of Product 3",
     imageSrc: "product3.jpg",
     imageAlt: "Product 3 Image",
@@ -39,6 +43,7 @@ export const PRODUCTS_ITEMS: Array<Product> = [
   {
     id: 4,
     name: "Product 4",
+    product_code: "PRO-004",
     category_code: "CAT-001",
     description: "Description of Product 4",
     imageSrc: "product4.jpg",
@@ -49,6 +54,7 @@ export const PRODUCTS_ITEMS: Array<Product> = [
     id: 5,
     name: "Product 5",
     category_code: "CAT-001",
+    product_code: "PRO-005",
     description: "Description of Product 5",
     imageSrc: "product5.jpg",
     imageAlt: "Product 5 Image",
@@ -59,6 +65,7 @@ export const PRODUCTS_ITEMS: Array<Product> = [
     id: 6,
     name: "Product 6",
     category_code: "CAT-002",
+    product_code: "PRO-006",
     description: "Description of Product 1",
     imageSrc: "product1.jpg",
     imageAlt: "Product 1 Image",
@@ -68,6 +75,7 @@ export const PRODUCTS_ITEMS: Array<Product> = [
     id: 7,
     name: "Product 7",
     category_code: "CAT-002",
+    product_code: "PRO-007",
     description: "Description of Product 2",
     imageSrc: "product2.jpg",
     imageAlt: "Product 2 Image",
@@ -77,6 +85,7 @@ export const PRODUCTS_ITEMS: Array<Product> = [
     id: 8,
     name: "Product 8",
     category_code: "CAT-002",
+    product_code: "PRO-008",
     description: "Description of Product 3",
     imageSrc: "product3.jpg",
     imageAlt: "Product 3 Image",
@@ -86,6 +95,7 @@ export const PRODUCTS_ITEMS: Array<Product> = [
     id: 9,
     name: "Product 9",
     category_code: "CAT-002",
+    product_code: "PRO-009",
     description: "Description of Product 4",
     imageSrc: "product4.jpg",
     imageAlt: "Product 4 Image",
@@ -95,6 +105,7 @@ export const PRODUCTS_ITEMS: Array<Product> = [
     id: 10,
     name: "Product 10",
     category_code: "CAT-002",
+    product_code: "PRO-010",
     description: "Description of Product 5",
     imageSrc: "product5.jpg",
     imageAlt: "Product 5 Image",
@@ -104,7 +115,8 @@ export const PRODUCTS_ITEMS: Array<Product> = [
   {
     id: 11,
     name: "Product 11",
-    category_code: "CAT-002",
+    category_code: "CAT-003",
+    product_code: "PRO-011",
     description: "Description of Product 1",
     imageSrc: "product1.jpg",
     imageAlt: "Product 1 Image",
@@ -113,7 +125,8 @@ export const PRODUCTS_ITEMS: Array<Product> = [
   {
     id: 12,
     name: "Product 12",
-    category_code: "CAT-002",
+    category_code: "CAT-003",
+    product_code: "PRO-012",
     description: "Description of Product 2",
     imageSrc: "product2.jpg",
     imageAlt: "Product 2 Image",
@@ -122,7 +135,8 @@ export const PRODUCTS_ITEMS: Array<Product> = [
   {
     id: 13,
     name: "Product 13",
-    category_code: "CAT-002",
+    category_code: "CAT-003",
+    product_code: "PRO-013",
     description: "Description of Product 3",
     imageSrc: "product3.jpg",
     imageAlt: "Product 3 Image",
@@ -131,7 +145,8 @@ export const PRODUCTS_ITEMS: Array<Product> = [
   {
     id: 14,
     name: "Product 14",
-    category_code: "CAT-002",
+    category_code: "CAT-003",
+    product_code: "PRO-014",
     description: "Description of Product 4",
     imageSrc: "product4.jpg",
     imageAlt: "Product 4 Image",
@@ -140,7 +155,8 @@ export const PRODUCTS_ITEMS: Array<Product> = [
   {
     id: 15,
     name: "Product 15",
-    category_code: "CAT-002",
+    category_code: "CAT-003",
+    product_code: "PRO-015",
     description: "Description of Product 5",
     imageSrc: "product5.jpg",
     imageAlt: "Product 5 Image",
@@ -150,7 +166,8 @@ export const PRODUCTS_ITEMS: Array<Product> = [
   {
     id: 16,
     name: "Product 16",
-    category_code: "CAT-003",
+    product_code: "PRO-016",
+    category_code: "CAT-004",
     description: "Description of Product 1",
     imageSrc: "product1.jpg",
     imageAlt: "Product 1 Image",
@@ -159,7 +176,8 @@ export const PRODUCTS_ITEMS: Array<Product> = [
   {
     id: 17,
     name: "Product 17",
-    category_code: "CAT-003",
+    product_code: "PRO-017",
+    category_code: "CAT-004",
     description: "Description of Product 2",
     imageSrc: "product2.jpg",
     imageAlt: "Product 2 Image",
@@ -168,7 +186,8 @@ export const PRODUCTS_ITEMS: Array<Product> = [
   {
     id: 18,
     name: "Product 18",
-    category_code: "CAT-003",
+    product_code: "PRO-018",
+    category_code: "CAT-004",
     description: "Description of Product 3",
     imageSrc: "product3.jpg",
     imageAlt: "Product 3 Image",
@@ -177,7 +196,8 @@ export const PRODUCTS_ITEMS: Array<Product> = [
   {
     id: 19,
     name: "Product 19",
-    category_code: "CAT-003",
+    product_code: "PRO-019",
+    category_code: "CAT-004",
     description: "Description of Product 4",
     imageSrc: "product4.jpg",
     imageAlt: "Product 4 Image",
@@ -186,7 +206,8 @@ export const PRODUCTS_ITEMS: Array<Product> = [
   {
     id: 20,
     name: "Product 20",
-    category_code: "CAT-003",
+    product_code: "PRO-020",
+    category_code: "CAT-004",
     description: "Description of Product 5",
     imageSrc: "product5.jpg",
     imageAlt: "Product 5 Image",
@@ -196,7 +217,8 @@ export const PRODUCTS_ITEMS: Array<Product> = [
   {
     id: 21,
     name: "Product 21",
-    category_code: "CAT-004",
+    product_code: "PRO-021",
+    category_code: "CAT-005",
     description: "Description of Product 1",
     imageSrc: "product1.jpg",
     imageAlt: "Product 1 Image",
@@ -205,7 +227,8 @@ export const PRODUCTS_ITEMS: Array<Product> = [
   {
     id: 22,
     name: "Product 22",
-    category_code: "CAT-004",
+    product_code: "PRO-022",
+    category_code: "CAT-005",
     description: "Description of Product 2",
     imageSrc: "product2.jpg",
     imageAlt: "Product 2 Image",
@@ -214,7 +237,8 @@ export const PRODUCTS_ITEMS: Array<Product> = [
   {
     id: 23,
     name: "Product 23",
-    category_code: "CAT-004",
+    product_code: "PRO-023",
+    category_code: "CAT-005",
     description: "Description of Product 3",
     imageSrc: "product3.jpg",
     imageAlt: "Product 3 Image",
@@ -223,7 +247,8 @@ export const PRODUCTS_ITEMS: Array<Product> = [
   {
     id: 24,
     name: "Product 24",
-    category_code: "CAT-004",
+    product_code: "PRO-024",
+    category_code: "CAT-005",
     description: "Description of Product 4",
     imageSrc: "product4.jpg",
     imageAlt: "Product 4 Image",
@@ -232,7 +257,8 @@ export const PRODUCTS_ITEMS: Array<Product> = [
   {
     id: 25,
     name: "Product 25",
-    category_code: "CAT-004",
+    category_code: "CAT-005",
+    product_code: "PRO-025",
     description: "Description of Product 5",
     imageSrc: "product5.jpg",
     imageAlt: "Product 5 Image",

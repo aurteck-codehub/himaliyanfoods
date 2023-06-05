@@ -65,7 +65,7 @@ export default function CategoryPage({ result }: any) {
                     <Card
                       key={index}
                       name={product.name}
-                      code={product.id}
+                      code={product.product_code}
                       src={product.imageSrc}
                       alt={product.imageAlt}
                       price={product.price}

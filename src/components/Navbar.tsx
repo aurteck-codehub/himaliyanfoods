@@ -276,23 +276,23 @@ const NAV_ITEMS: Array<NavItem> = [
     children: [
       {
         label: "Edible Salt",
-        href: "#",
+        href: "/category/CAT-001",
       },
       {
         label: "Industrial Salt",
-        href: "#",
+        href: "/category/CAT-002",
       },
       {
         label: "Salt Tiles",
-        href: "#",
+        href: "/category/CAT-003",
       },
       {
         label: "Slat Lamp",
-        href: "#",
+        href: "/category/CAT-004",
       },
       {
         label: "Animal Lick Salt",
-        href: "#",
+        href: "/category/CAT-005",
       },
     ],
   },
