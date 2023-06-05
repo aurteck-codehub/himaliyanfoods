@@ -15,7 +15,7 @@ export const CAT_ITEMS: Array<Category> = [
     name: "Edible Salt",
     short_description: "Short description of Category 1",
     description: "Detailed description of Category 1",
-    imageSrc: "/asserts/edible_salt.jpg",
+    imageSrc: "/asserts/4.jpg",
     imageAlt: "Category 1 Image",
   },
   {
@@ -24,7 +24,7 @@ export const CAT_ITEMS: Array<Category> = [
     name: "Industrial Salt",
     short_description: "Short description of Category 1",
     description: "Detailed description of Category 1",
-    imageSrc: "/asserts/industral_salt.jpeg",
+    imageSrc: "/asserts/5.jpg",
     imageAlt: "Category 1 Image",
   },
   {
