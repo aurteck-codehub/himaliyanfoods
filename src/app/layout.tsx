@@ -1,11 +1,14 @@
-"use client";
-
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import ChakraWrapper from "@/layout/chakraWrapper";
-// import "@/styles/banner.css";
-// import "@/styles/globals.css";
-// import "@/styles/neon.css";
+import { Suspense } from "react";
+import Loading from "./loading";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Himalyan Elements",
+  description: "...",
+};
 
 export default function RootLayout({
   children,
@@ -21,9 +24,11 @@ export default function RootLayout({
       <head />
       <body>
         <ChakraWrapper>
-          <Navbar />
-          {children}
-          <Footer />
+          <Suspense fallback={<Loading />}>
+            <Navbar />
+            {children}
+            <Footer />
+          </Suspense>
         </ChakraWrapper>
       </body>
     </html>
