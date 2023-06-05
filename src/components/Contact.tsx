@@ -17,6 +17,7 @@ import {
   InputGroup,
   InputLeftElement,
   Textarea,
+  useColorModeValue,
 } from "@chakra-ui/react";
 
 import {
@@ -34,7 +35,7 @@ const Contact = () => {
     <Container maxW="full" mt={0} centerContent overflow="hidden">
       <Flex>
         <Box
-          bg="red.100"
+          bg={useColorModeValue("red.100", "red.300")}
           color="gray.800"
           borderRadius="lg"
           m={{ sm: 4, md: 16, lg: 10 }}
@@ -43,8 +44,12 @@ const Contact = () => {
             <Wrap spacing={{ base: 20, sm: 3, md: 5, lg: 20 }}>
               <WrapItem>
                 <Box>
-                  <Heading>Contact</Heading>
-                  <Text mt={{ sm: 3, md: 3, lg: 5 }} color="gray.600">
+                  <Heading color={useColorModeValue("gray.600", "gray.100")}>
+                    Contact
+                  </Heading>
+                  <Text
+                    mt={{ sm: 3, md: 3, lg: 5 }}
+                    color={useColorModeValue("gray.600", "gray.100")}>
                     Fill up the form below to contact
                   </Text>
                   <Box py={{ base: 5, sm: 5, md: 8, lg: 10 }}>
@@ -54,9 +59,14 @@ const Contact = () => {
                         height="48px"
                         width="200px"
                         variant="ghost"
-                        color="grey.800"
+                        color={useColorModeValue("gray.600", "gray.100")}
                         _hover={{ border: "2px solid " }}
-                        leftIcon={<MdPhone color="gray.800" size="20px" />}>
+                        leftIcon={
+                          <MdPhone
+                            color={useColorModeValue("gray.600", "gray.100")}
+                            size="20px"
+                          />
+                        }>
                         +92-336-4143256
                       </Button>
                       <Button
@@ -64,9 +74,14 @@ const Contact = () => {
                         height="48px"
                         width="200px"
                         variant="ghost"
-                        color="grey.800"
+                        color={useColorModeValue("gray.600", "gray.100")}
                         _hover={{ border: "2px solid " }}
-                        leftIcon={<MdEmail color="gray.800" size="20px" />}>
+                        leftIcon={
+                          <MdEmail
+                            color={useColorModeValue("gray.600", "gray.100")}
+                            size="20px"
+                          />
+                        }>
                         contactus@himaliyanfoods.com.pk
                       </Button>
                       <Button
@@ -74,10 +89,13 @@ const Contact = () => {
                         height="48px"
                         width="200px"
                         variant="ghost"
-                        color="grey.800"
+                        color={useColorModeValue("gray.600", "gray.100")}
                         _hover={{ border: "2px solid " }}
                         leftIcon={
-                          <MdLocationOn color="gray.800" size="20px" />
+                          <MdLocationOn
+                            color={useColorModeValue("gray.600", "gray.100")}
+                            size="20px"
+                          />
                         }>
                         Lahore, Pakistan
                       </Button>

@@ -8,7 +8,6 @@ async function ProductDetail({ params }: { params: { code: string } }) {
   const productObj = products_data.find(
     (product) => product.product_code === productId
   );
-  console.log(productObj);
 
   return <ProductDetailPage product={productObj} />;
 }
