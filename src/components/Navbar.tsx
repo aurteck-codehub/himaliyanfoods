@@ -272,7 +272,7 @@ const NAV_ITEMS: Array<NavItem> = [
   },
   {
     label: "Products",
-    href: "/products",
+    href: "/product-list",
     children: [
       {
         label: "Edible Salt",
