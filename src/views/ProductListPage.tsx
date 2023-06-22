@@ -48,7 +48,7 @@ export default function CategoryPage() {
                       code={product.product_code}
                       src={product.imageSrc}
                       alt={product.imageAlt}
-                      price={product.price}
+                      price={product.rate}
                     />
                   </Center>
                 </WrapItem>
